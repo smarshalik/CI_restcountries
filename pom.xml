@@ -4,7 +4,6 @@
 	<groupId>vaeke</groupId>
 	<artifactId>restcountries</artifactId>
 	<version>1.0.4</version>
-
 	<name>restcountries</name>
 	<description>REST interface to get data about countries</description>
 	<developers>
@@ -164,7 +163,7 @@
 <repositories>
     <repository>
         <id>CI_restcountries-mvn-repo</id>
-        <url>https://raw.github.com/smarshalik/CI_restcountries/mvn-repo/</url>
+        <url>https://github.com/smarshalik/mvn-repo</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
