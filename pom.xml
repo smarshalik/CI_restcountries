@@ -20,6 +20,16 @@
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
 
+<distributionManagement>
+    <repository>
+        <id>nexus-site</id>
+        <name>smarshalik</name>
+        <url>http://localhost:8081/nexus/content/repositories/public/</url>
+    </repository>
+</distributionManagement>
+
+
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
@@ -83,6 +93,26 @@
 
 	</dependencies>
 
+	
+<build>
+   <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-webdav-jackrabbit</artifactId>
+        <version>2.6</version>
+      </extension>
+    </extensions>
+</build>
+	
+<build>
+  <plugins>
+    <plugin>
+      <artifactId>maven-site-plugin</artifactId>
+      <version>3.4</version>
+    </plugin>
+  </plugins>
+</build>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -143,6 +173,3 @@
 	</reporting>
 </project>
 
-<distributionManagement>
-    <downloadUrl>https://github.com/smarshalik/mvn-repo.git</downloadUrl>
-</distributionManagement>
