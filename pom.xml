@@ -4,7 +4,7 @@
 	<groupId>vaeke</groupId>
 	<artifactId>restcountries</artifactId>
 	<version>1.0.4</version>
-	<packaging>war</packaging>
+	<packaging>ejb</packaging>
 	<name>restcountries</name>
 	<description>REST interface to get data about countries</description>
 	<developers>
@@ -141,11 +141,22 @@
 			</plugin>
 		</plugins>
 	</reporting>
-<distributionManagement>
-    ...
-    <downloadUrl>https://github.com/smarshalik/restcountries_deploy.git</downloadUrl>
-    <status>deployed</status>
- </distributionManagement>
-
 </project>
 
+<distributionManagement>
+    <repository>
+        <id>internal.repo</id>
+        <name>Temporary Staging Repository</name>
+        <url>file://${project.build.directory}/mvn-repo</url>
+    </repository>
+</distributionManagement>
+
+<plugins>
+    <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>3.2.3</version>
+        <configuration>
+            <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+        </configuration>
+    </plugin>
+</plugins>
