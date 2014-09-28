@@ -117,7 +117,7 @@
 							<value>${project.version}</value>
 						</replacement>
 						<replacement>
-							<token>localhost:8082/rest/v1/capital/tallinn</token>
+							<token>localhost:8081/rest/v1/capital/tallinn</token>
 							<value>restcountries.eu</value>
 						</replacement>
 					</replacements>
