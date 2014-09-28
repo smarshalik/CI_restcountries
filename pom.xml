@@ -10,7 +10,7 @@
 	<developers>
 		<developer>
 			<id>vaeke</id>
-			<url>http://restcountries.eu</url>
+			<url>http://restcountries.eu/rest/v1</url>
 		</developer>
 	</developers>
 
