@@ -141,5 +141,10 @@
 			</plugin>
 		</plugins>
 	</reporting>
+	  <distributionManagement>
+    ...
+    <downloadUrl>https://github.com/smarshalik/restcountries_deploy.git</downloadUrl>
+    <status>deployed</status>
+  </distributionManagement>
 </project>
 
