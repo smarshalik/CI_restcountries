@@ -160,3 +160,14 @@
         </configuration>
     </plugin>
 </plugins>
+
+<repositories>
+    <repository>
+        <id>CI_restcountries-mvn-repo</id>
+        <url>https://raw.github.com/smarshalik/CI_restcountries/mvn-repo/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+</repositories>
