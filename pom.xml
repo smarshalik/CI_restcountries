@@ -4,7 +4,6 @@
 	<groupId>vaeke</groupId>
 	<artifactId>restcountries</artifactId>
 	<version>1.0.4</version>
-	<packaging>ejb</packaging>
 	<name>restcountries</name>
 	<description>REST interface to get data about countries</description>
 	<developers>
