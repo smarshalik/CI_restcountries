@@ -27,15 +27,14 @@
     </repository>
 </distributionManagement>
 
-<settings>
-  <servers>
+ <servers>
     <server>
       <id>GIT</id>
       <username>smarshalik</username>
       <password>mialse87</password>
     </server>
-  </servers>
-</settings>
+ </servers>
+
 
 	
 	<dependencies>
