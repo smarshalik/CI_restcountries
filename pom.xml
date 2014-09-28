@@ -4,7 +4,7 @@
 	<groupId>vaeke</groupId>
 	<artifactId>restcountries</artifactId>
 	<version>1.0.4</version>
-	<packaging>ejb</packaging>
+
 	<name>restcountries</name>
 	<description>REST interface to get data about countries</description>
 	<developers>
@@ -172,14 +172,3 @@
     </repository>
 </repositories>
 
-<build>
-  <plugins>
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-ejb-plugin</artifactId>
-        <configuration>
-            <ejbVersion>3.0</ejbVersion>
-        </configuration>
-    </plugin>
-  </plugins>
-</build>
