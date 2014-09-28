@@ -126,6 +126,11 @@
 		</plugins>
 	</build>
 
+<distributionManagement>
+    <downloadUrl>https://github.com/smarshalik/CI_restcountries.git</downloadUrl>
+    <status>deployed</status>
+</distributionManagement>
+ 
 	<reporting>
 		<plugins>
 			<plugin>
@@ -142,10 +147,6 @@
 	</reporting>
 </project>
 
-  <distributionManagement>
-    ...
-    <downloadUrl>https://github.com/smarshalik/CI_restcountries.git</downloadUrl>
-    <status>deployed</status>
-  </distributionManagement>
+
 
 
