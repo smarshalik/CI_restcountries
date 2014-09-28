@@ -102,9 +102,8 @@
         <version>2.6</version>
       </extension>
     </extensions>
-</build>
 	
-<build>
+ <build>
   <plugins>
     <plugin>
       <artifactId>maven-site-plugin</artifactId>
