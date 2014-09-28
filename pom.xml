@@ -23,7 +23,6 @@
 <distributionManagement>
     <repository>
         <id>nexus-site</id>
-        <name>smarshalik</name>
         <url>http://localhost:8081/nexus/content/repositories/public/</url>
     </repository>
 </distributionManagement>
