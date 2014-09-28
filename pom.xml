@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>vaeke</groupId>
-	<packaging>war</packaging>
 	<artifactId>restcountries</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
+	<packaging>war</packaging>
 	<name>restcountries</name>
 	<description>REST interface to get data about countries</description>
 	<developers>
@@ -117,7 +117,7 @@
 							<value>${project.version}</value>
 						</replacement>
 						<replacement>
-							<token>localhost:8080/rest/v1/capital/tallinn</token>
+							<token>localhost:8080</token>
 							<value>restcountries.eu</value>
 						</replacement>
 					</replacements>
@@ -127,10 +127,6 @@
 		</plugins>
 	</build>
 
-<distributionManagement>
-    <downloadUrl>https://github.com/smarshalik/mvn-repo.git</downloadUrl>
-</distributionManagement>
- 
 	<reporting>
 		<plugins>
 			<plugin>
@@ -147,6 +143,6 @@
 	</reporting>
 </project>
 
-
-
-
+<distributionManagement>
+    <downloadUrl>https://github.com/smarshalik/mvn-repo.git</downloadUrl>
+</distributionManagement>
