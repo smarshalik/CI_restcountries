@@ -22,11 +22,20 @@
 
 <distributionManagement>
     <repository>
-        <id>nexus-site</id>
-        <url>http://localhost:8081/nexus/content/repositories/public/</url>
+        <id>GIT</id>
+        <url>https://github.com/smarshalik/restcountries_deploy.git</url>
     </repository>
 </distributionManagement>
 
+<settings>
+  <servers>
+    <server>
+      <id>GIT</id>
+      <username>smarshalik</username>
+      <password>mialse87</password>
+    </server>
+  </servers>
+</settings>
 
 	
 	<dependencies>
