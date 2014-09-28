@@ -21,16 +21,12 @@
 	</properties>
 
 <distributionManagement>
-   <snapshotRepository>
+    <repository>
       <id>nexus-snapshots</id>
       <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-   </snapshotRepository>
+    </repository>
 </distributionManagement>
 
-
-
-
-	
 	<dependencies>
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
