@@ -21,19 +21,13 @@
 	</properties>
 
 <distributionManagement>
-    <repository>
-        <id>GIT</id>
-        <url>https://github.com/smarshalik/restcountries_deploy.git</url>
-    </repository>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
 </distributionManagement>
 
- <servers>
-    <server>
-      <id>GIT</id>
-      <username>smarshalik</username>
-      <password>mialse87</password>
-    </server>
- </servers>
+
 
 
 	
