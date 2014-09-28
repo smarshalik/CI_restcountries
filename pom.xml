@@ -128,7 +128,6 @@
 
 <distributionManagement>
     <downloadUrl>https://github.com/smarshalik/mvn-repo.git</downloadUrl>
-    <status>deployed</status>
 </distributionManagement>
  
 	<reporting>
