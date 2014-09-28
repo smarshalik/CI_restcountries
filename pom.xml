@@ -127,7 +127,7 @@
 	</build>
 
 <distributionManagement>
-    <downloadUrl>https://github.com/smarshalik/CI_restcountries.git</downloadUrl>
+    <downloadUrl>https://github.com/smarshalik/mvn-repo.git</downloadUrl>
     <status>deployed</status>
 </distributionManagement>
  
